@@ -107,22 +107,6 @@ summary(ivory_own_fit, pars = c("beta_base", "gamma_aes", "beta_cult", ...))
 
 ---
 
-## Model Output
-
-The model object can be saved and reused:
-
-```r
-saveRDS(ivory_own_fit, file = "FINAL_Ivory_own_fit.rds")
-```
-
-Or loaded later:
-
-```r
-ivory_own_fit <- readRDS("APRIL_Ivory_own_fit.rds")
-```
-
----
-
 ## Interpretation
 
 * **`gamma_*` coefficients** quantify the influence of latent constructs (e.g., aesthetics, legality, environment) on the latent sensitive behaviour.
@@ -135,4 +119,4 @@ ivory_own_fit <- readRDS("APRIL_Ivory_own_fit.rds")
 
 If using this model or code, please cite:
 
-> Molly \[Brown], \[2025]. Strategic behavioural interventions are required to tackle Chinese aesthetic, cultural and social values driving ivory demand. 
+> Molly \Brown, \2025. Strategic behavioural interventions are required to tackle Chinese aesthetic, cultural and social values driving ivory demand. 
